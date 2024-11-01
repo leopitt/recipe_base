@@ -5,9 +5,9 @@ A Drupal 11 site ready for Recipe installation.
 Based on the [Recipes in Drupal 11 - Getting Started](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started_d11.md) guide.
 
 This project was created by
-1. following the instructions at [Install Drupal Locally with DDEV](https://drupalize.me/tutorial/install-drupal-locally-ddev) to install a Drupal 11 Minimal site.
+1. Following the instructions at [Install Drupal Locally with DDEV](https://drupalize.me/tutorial/install-drupal-locally-ddev) to install a Drupal 11 Minimal site.
 2. Following the instructions at [Recipes in Drupal 11 - Getting Started](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started_d11.md) to prepare the site for Recipe installation.
-3. Modifications to the `composer.json` file to set a sensible path for recipes.
+3. Modifying `composer.json` file to set a sensible contrib path for recipe installation.
 
 ### Pre-requisites:
 
