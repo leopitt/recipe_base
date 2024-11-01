@@ -15,3 +15,7 @@ web/themes/README.txt
 web/sites/default/files
 web/sites/simpletest/
 private
+
+# User generated files and folders.
+.idea
+
