@@ -79,7 +79,7 @@
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "web/recipes/{$name}": [
+            "web/recipes/contrib/{$name}": [
                 "type:drupal-recipe"
             ]
         },
