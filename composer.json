@@ -78,6 +78,9 @@
             ],
             "web/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
+            ],
+            "web/recipes/{$name}": [
+                "type:drupal-recipe"
             ]
         },
         "drupal-core-project-message": {
