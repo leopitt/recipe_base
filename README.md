@@ -9,6 +9,10 @@ This project was created by
 2. Following the instructions at [Recipes in Drupal 11 - Getting Started](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started_d11.md) to prepare the site for Recipe installation.
 3. Modifications to the `composer.json` file to set a sensible path for recipes.
 
+### Pre-requisites:
+
+- [DDEV](https://ddev.readthedocs.io/en/stable/)
+
 ### Installation:
 
 1. `ddev start`
@@ -20,7 +24,15 @@ This project was created by
 ### To install recipes with DDEV:
 
 1. Get the Recipe package: `ddev composer require organisation-name/recipe-name`
-2. Install the recipe: `ddev drush recipe recipes/contrib/recipe-name`
+2. Clear the cache: `ddev drush cr`
+3. Install the recipe: `ddev drush recipe recipes/contrib/recipe-name`
+
+Example:
+```bash
+ddev composer require kanopi/gin-admin-experience
+ddev drush cr
+ddev drush recipe recipes/contrib/gin-admin-experience
+```
 
 ## References:
 - [Recipes in Drupal 11 - Getting Started](https://git.drupalcode.org/project/distributions_recipes/-/blob/1.0.x/docs/getting_started_d11.md)
