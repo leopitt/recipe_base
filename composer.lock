@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c19d30a7bcb5a1c8f93f7bec357a590b",
+    "content-hash": "abb9e423de5fcf78707ad9943afa97fc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -11870,7 +11870,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "ewcomposer/unpack": 20
     },
