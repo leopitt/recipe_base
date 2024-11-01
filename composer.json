@@ -16,10 +16,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/woredeyonas/Drupal-Recipe-Unpack.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@github.com:systemseed/d4nfps_commerce.git"
         }
     ],
     "require": {
