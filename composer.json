@@ -12,6 +12,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/woredeyonas/Drupal-Recipe-Unpack.git"
         }
     ],
     "require": {
@@ -19,7 +23,8 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
-        "drupal/core-recommended": "^11.0"
+        "drupal/core-recommended": "^11.0",
+        "ewcomposer/unpack": "dev-master"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -33,6 +38,7 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
+            "ewcomposer/unpack": true,
             "php-http/discovery": true,
             "phpstan/extension-installer": true,
             "tbachert/spi": true
@@ -94,7 +100,8 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "patches": {}
     },
     "require-dev": {
         "drupal/core-dev": "^11.0",
