@@ -17,11 +17,11 @@ This project was created by
 
 1. Clone this repo and `cd` into it.
 2. `ddev config --project-type drupal --docroot web --php-version 8.3`
-2. `ddev start`
-2. `ddev composer install`
-3. `ddev drush site:install minimal --account-name=admin --account-pass=admin -y`
-4. `ddev launch`
-5. `ddev drush user:login`
+3. `ddev start`
+4. `ddev composer install`
+5. `ddev drush site:install minimal --account-name=admin --account-pass=admin -y`
+
+Optionally, run `ddev launch` to launch the site in your browser and `ddev drush user:login` to get a one time admin login link.
 
 ### To install recipes with DDEV:
 
