@@ -15,7 +15,8 @@ This project was created by
 
 ### Installation:
 
-1. `ddev config --project-type drupal --docroot web --php-version 8.3`
+1. Clone this repo and `cd` into it.
+2. `ddev config --project-type drupal --docroot web --php-version 8.3`
 2. `ddev start`
 2. `ddev composer install`
 3. `ddev drush site:install minimal --account-name=admin --account-pass=admin -y`
