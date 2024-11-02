@@ -17,6 +17,8 @@ web/sites/default/files
 web/sites/simpletest/
 private
 
+# DDEV
+.ddev
+
 # User generated files and folders.
 .idea
-
